@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/shape_smalwhite_bt"
+        android:id="@+id/id_search_layout">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/magnify"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_search_icon"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/magnify"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/id_input_search"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:background="@color/transparentWhite"
+        android:id="@+id/id_drawer_action"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_drawer_icon_24dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/shape_smalwhite_bt"
+        android:id="@+id/nv_list_action"
+        android:gravity="center"
+        android:layout_toRightOf="@id/id_search_layout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="LIST"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:background="@color/transparentWhite"
+        android:id="@+id/nv_myLocation"
+        android:gravity="center"
+        android:layout_toRightOf="@id/nv_list_action"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_navigation"/>
+    
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511860058370",
+    "firebase_url": "https://letswork-3d9ea.firebaseio.com",
+    "project_id": "letswork-3d9ea",
+    "storage_bucket": "letswork-3d9ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511860058370:android:08c71cef7d0ba3d3",
+        "android_client_info": {
+          "package_name": "com.workdistrict.onetouch.letswork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511860058370-1kah6gbdhma7h29mh7a7i1c2tk7sb999.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workdistrict.onetouch.letswork",
+            "certificate_hash": "731679b160ce2a1db56d8afaece854a578a0e7f7"
+          }
+        },
+        {
+          "client_id": "511860058370-ivkjhq447gfdskuuog0ta3hp38f01fco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAXLTaV3i0aJAshKGPrnTKDfhC3ImdtwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511860058370-ivkjhq447gfdskuuog0ta3hp38f01fco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

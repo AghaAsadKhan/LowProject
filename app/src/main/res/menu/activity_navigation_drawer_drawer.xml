@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart_black_24dp"
+            android:title="@string/menu_package" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_connect_black_24dp"
+            android:title="@string/menu_connect" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification_black_24dp"
+            android:title="@string/menu_notification" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/menu_history" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_meeting"
+            android:icon="@drawable/ic_meeting_black_24dp"
+            android:title="@string/menu_meeting" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_contact_us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/menu_share" />
+
+        </menu>
+    </item>
+
+</menu>
